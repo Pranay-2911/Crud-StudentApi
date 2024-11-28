@@ -1,0 +1,17 @@
+<form [formGroup]="newStudentForm" (ngSubmit)="addnewStudent()">
+    <input type="number" placeholder="Enter roll no" formControlName = "rollNo">
+    <br>
+    <input type="text" placeholder="Enter name" formControlName = "name">
+    <br>
+    <input type="number" placeholder="Enter age" formControlName = "age">
+    <br>
+    <input type ="text" placeholder="Enter email" formControlName = "email">
+    <br>
+    <input type ="date" placeholder="Enter Date" formControlName = "date">
+    <br>
+    <input type = "checkbox" formControlName = "isMale">IsMale
+    <br>
+    <button>Submit</button>
+
+
+</form>
